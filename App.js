@@ -6,7 +6,7 @@ const Calculator = () => {
   const [history, setHistory] = useState([]);
 
   const my_eval = (t) => {
-    let result = "Loi roi dcm";
+    let result = "Loi";
     try {
       result = eval(t);
     } catch (error) {
